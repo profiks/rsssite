@@ -713,17 +713,17 @@ scroll {  0% {
     color:#fff;
   }
  
-
+p{
+    
+    font-size: 18px;
+}
  
-#portfoliolist .portfolio {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  width:23%;
-  margin:1%;
-  display:none;
-  float:left;
-  overflow:hidden;
+#portfoliolist {
+ text-align: left;
+}
+
+#portfoliolist ul li {
+    list-style: none;
 }
 
   .portfolio-wrapper {
@@ -766,7 +766,10 @@ scroll {  0% {
         font-size:9px;
       }
   
-  
+  .left{
+      text-align: left;
+      color: #fff;
+  }
   
 
 
